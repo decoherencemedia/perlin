@@ -21,7 +21,7 @@ let curveNoiseFactor = params.noiseFactor;
 let font;
 
 function preload() {
-  font = loadFont('/APOLLOItalic-subset.otf');
+  font = loadFont('/perlin/APOLLOItalic-subset.otf');
 }
 
 function setup() {
