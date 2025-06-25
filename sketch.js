@@ -7,17 +7,15 @@ const colors = {
 };
 
 const params = {
-  noiseDetail: 0.02,
+  noiseDetail: 0.0225,
   resolution: 360,
   noiseFactor: 160,
   speed: 0.00075,
-  curvePhaseFactor: 0.0131,
+  curvePhaseFactor: 0.006,
   numberOfCurves: 90,
   gap: 2,
   weight: 1,
 };
-
-let curveNoiseFactor = params.noiseFactor;
 
 let font;
 
